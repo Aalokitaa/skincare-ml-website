@@ -1,4 +1,3 @@
-// filepath: c:\Users\chibb\OneDrive\Desktop\Skincare\skincare-ml-website\public\script.js
 document.getElementById('problem-form').addEventListener('submit', async (event) => {
     event.preventDefault();
 
@@ -9,7 +8,7 @@ document.getElementById('problem-form').addEventListener('submit', async (event)
     aiSolutionDiv.innerHTML = '<p>Loading solution...</p>';
 
     try {
-        const response = await fetch('http://localhost:5000/api/solution', {
+        const response = await fetch('https://skincare-ml-website.onrender.com/api/solution', { // Use your backend URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
