@@ -2,9 +2,9 @@
   "name": "skincare-ml-website",
   "version": "1.0.0",
   "description": "A skincare website utilizing machine learning and data science to provide solutions to common skincare problems.",
-  "main": "src/app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -26,9 +26,9 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
-  "homepage": "http://yourwebsite.com",
+  "homepage": "https://aalokitaa.github.io/skincare-ml-website",
   "repository": {
     "type": "git",
-    "url": "http://github.com/yourusername/skincare-ml-website.git"
+    "url": "https://github.com/Aalokitaa/skincare-ml-website.git"
   }
 }
